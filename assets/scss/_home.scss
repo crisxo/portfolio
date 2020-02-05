@@ -1,0 +1,311 @@
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $mainFont;
+}
+
+h1 {
+  text-shadow: -2px 2px 2px #000;
+  font-size: 3em;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 50;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.6);
+  text-shadow: -2px 2px 2px #000;
+}
+
+h5 {
+  margin-top: 0%;
+  color: rgba(255, 255, 255, 0.6);
+  text-shadow: -2px 2px 2px #000;
+  margin-top: -4%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.topnav {
+  position: fixed;
+  top: 10px;
+  z-index: 100;
+  padding: 0 20px 0 0;
+
+  li {
+    list-style: none;
+    padding: 5px;
+
+    a {
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        text-shadow: -2px 2px 2px #000;
+
+        &:hover {
+          color: #FF3366;
+        }
+        
+      }
+    }
+
+  .loghome {
+    height: 2.5%;
+    width: 2.5%;
+    margin-right: 10px;
+  }
+
+  }
+
+
+
+  /*top background*/
+  .intro-header { 
+    padding-top: 50px; /* Pour les pages, padding 50px, sinon, la navbar overlap le content! */
+    padding-bottom: 50px;
+    text-align: center;
+    background: url('/assets/img/sourcecode2.jpg') no-repeat center fixed;
+    background-size: cover;
+
+    .logo {
+      width: 7%;
+      margin-bottom: -3%;
+    }
+}
+
+
+.bg-overlay {
+  margin: 9% 20% 9% 20%;
+  padding: 10% 0 10% 0;
+  background: $mainColor;
+  width: 60%;
+}
+
+.b-line {
+  margin: -1%;
+}
+
+/*Section About*/
+
+.text-about {
+  font-size: 2em;
+  font-weight: 100;
+}
+
+/*section 2 about*/
+.content-about {
+  padding: 10% 10% 10% 10%;
+  background: url('/assets/img/print-rollers.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+  /*texte about*/
+.content-about p {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.bg-overlay2 {
+  margin: 5% 0 5% 20%;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  width: 50%;
+}
+
+.heading-about {
+  font-size: 2em;
+  color: white;
+}
+
+
+/* Portfolio section*/
+.portfolism {
+  color: black;
+  background: url('/assets/img/web-print.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
+.portfo-overlay1 {
+  padding: 5% 0 2% 26%;
+  width: 70%;
+}
+
+.portfo-overlay2 {
+  background: rgba(0, 0, 0, 0.4);
+  width: 58%;
+  padding: 5px 20px 5px 20px;
+}
+
+.portfotitle {
+  font-size: 2em;
+}
+
+.portfotext {
+  font-size: 1.5em;
+  color: white;
+}
+
+#small-text {
+  color: white;
+}
+
+.portfolio-item {
+  overflow: hidden;
+  padding: 7px;
+  color: white;
+  height: 308px;
+}
+/*Portfolio items*/
+
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+  border: 1px outset rgba(255, 255, 255, 0.6);
+}
+/*ombre portee en hover sur les projets*/
+#portfolio .portfolio-item:hover {
+  transition: 0.25s;
+  box-shadow: -5px 5px 5px rgba(0,0,0,0.7);
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(0, 0, 0, .7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0, 0.8);
+  text-align: center;
+  padding: 25px;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  color: #fff;
+  text-transform: none;
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  margin: 0;
+}
+
+#portfolio * {
+  z-index: 2;
+}
+
+.col-md-4 {
+  overflow: hidden;
+  display: inline-block;
+  border: 1px outset rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 1%;
+  text-align: center;
+  box-shadow: -2px 3px 2px rgba(0,0,0,0.3);
+  text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+.col-md-4:hover {
+  transition: 0.5s;
+  box-shadow: -5px 5px 5px rgba(0,0,0,0.9);  
+}
+
+.contact-section {
+  padding: 26% 10% 6% 10%;
+  background: url('/assets/img/printing-eye.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
+.bg-overlay4 {
+  margin-top: -100px;
+  padding: 10px 20px 20px 20px;
+  background: rgba(0, 0, 0, 0.4);
+  width: 20%;
+  box-shadow: -5px 5px 5px rgba(0,0,0,0.7);
+}
+
+.contact-section ul {
+  margin-bottom: 0;
+}
+
+.contact-title {
+  margin-left: 2%;
+  color: white;
+}
+
+.champs {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1em;
+  color: white;
+  text-shadow: -1px 1px 1px rgba(0,0,0,0.3);
+}
+
+input, textarea {
+  border: none;
+}
+
+@media(max-width:1199px) {
+    
+}
+
+@media(max-width:767px) {
+
+}
+
+@media (min-width:767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0 20px 50px;
+  background: rgba(0, 0, 0, 0.4);
+
+.twitter_icon {
+  width: 7%;
+}
+}
