@@ -1,0 +1,39 @@
+/* Section About */
+
+.content-about {
+  padding: 10% 10% 10% 10%;
+  background: url('/assets/img/print-rollers.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
+.bg-overlay2 {
+  margin: 5% 0 5% 20%;
+  background: $mainColor;
+  padding: 35px;
+  width: 50%;
+    
+  /*texte about*/
+
+    .heading-about {
+      font-size: 2em;
+      color: white;
+    
+  }
+    .text-about {
+      font-size: 1.25em;
+      font-weight: 100;
+      color: #fff;
+  }
+    .text-about2 {
+      font-size: 1.25em;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: -20px;
+  }
+
+    .icon {
+      height: 60px;
+      width: auto;
+      margin-left: -5px;
+    }
+}

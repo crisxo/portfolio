@@ -1,0 +1,27 @@
+/* Section Header*/
+
+  /*header background*/
+  .intro-header { 
+    padding-top: 50px; /* Pour les pages, padding 50px, sinon, la navbar overlap le content! */
+    padding-bottom: 50px;
+    text-align: center;
+    background: url('/assets/img/sourcecode2.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+
+.bg-overlay {
+  margin: 9% 20% 9% 20%;
+  padding: 10% 0 10% 0;
+  background: $mainColor;
+  width: 60%;
+    
+    .logo {
+      width: 7%;
+      margin-bottom: -3%;
+    
+    .b-line {
+      margin: -1%;
+    }
+  }
+}

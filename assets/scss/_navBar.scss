@@ -1,0 +1,36 @@
+// Section navBar
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.topnav {
+  position: fixed;
+  top: 10px;
+  z-index: 100;
+  padding: 0 20px 0 0;
+
+  li {
+    list-style: none;
+    padding: 5px;
+
+    a {
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        text-shadow: -2px 2px 2px #000;
+
+        &:hover {
+          color: #FF6633;
+        }
+        
+      }
+    }
+
+  .loghome {
+    height: auto;
+    width: 30px;
+    margin-right: 10px;
+  }
+}
