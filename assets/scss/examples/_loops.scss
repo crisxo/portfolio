@@ -1,0 +1,21 @@
+// Margin top bottom right left
+// de 0 à 64px
+// use .mb0 to .mb64 etc...
+@for $i from 0 through 100 {
+     $width: $i * 1px;
+    .mb#{$i} {
+        margin-bottom: $width;
+    }
+    .mt#{$i} {
+        margin-top: $width;
+    }
+    .ml#{$i} {
+        margin-left: $width;
+    }
+    .mr#{$i} {
+        margin-right: $width;
+    }
+    $i: $i + 1;
+}
+
+// exo: faire le padding pb pt pr et pl
