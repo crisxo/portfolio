@@ -1,0 +1,42 @@
+.navigation {
+  text-align: center;
+  position: fixed;
+  background-color: #333;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  .img {
+    width: 60px;
+    height: 60px;
+    display: inline-table;
+    img {
+      margin-top: 8px;
+    }
+    @media (max-width: 560px) {
+      display: none;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      float: left;
+      a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        &:hover {
+          background-color: #111;
+        }
+      }
+    }
+  }
+}

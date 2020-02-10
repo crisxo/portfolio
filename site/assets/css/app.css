@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+.navigation {
+  text-align: center;
+  position: fixed;
+  background-color: #333;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.navigation .img {
+  width: 60px;
+  height: 60px;
+  display: inline-table;
+}
+.navigation .img img {
+  margin-top: 8px;
+}
+@media (max-width: 560px) {
+  .navigation .img {
+    display: none;
+  }
+}
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation ul li {
+  float: left;
+}
+.navigation ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+.navigation ul li a:hover {
+  background-color: #111;
+}
+
+.container {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.parallax {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 60px;
+}
+
+.home {
+  background-image: linear-gradient(120deg, #cfd9df 0%, #fff 100%);
+}
+
+.about {
+  background-image: linear-gradient(120deg, #cfd9df 0%, #fff 100%);
+}
+
+.portfolio {
+  background-image: linear-gradient(120deg, #cfd9df 0%, #eee 100%);
+}
+
+.contact {
+  background-image: linear-gradient(to top, #cfd9df 0%, #eee 100%);
+}
+
+.slideshow {
+  overflow: hidden;
+  height: 550px;
+  position: relative;
+}
+.slideshow-item {
+  position: absolute;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.me {
+  width: 100%;
+}
+
+.identity {
+  width: 70%;
+  display: inline-table;
+  vertical-align: top;
+}
+.identity-img {
+  width: 20%;
+  display: inline-table;
+}
+.identity ul {
+  list-style-type: none;
+}
+
+.card {
+  border-radius: 4px;
+  background: white;
+  border: 1px solid #ddd;
+  margin: 1%;
+  width: 30%;
+  float: left;
+  overflow: hidden;
+}
+.card-body {
+  padding: 20px;
+}
+@media (max-width: 560px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.form-row label {
+  display: block;
+  margin-bottom: 5px;
+  padding: 10px 0;
+}
+.form-row input {
+  width: 100%;
+  font-size: 18px;
+  height: 30px;
+  margin: 10px 0;
+}
+
+.send {
+  margin-top: 5px;
+  width: auto;
+  padding: 10px;
+  float: right;
+  clear: both;
+  margin-left: 0;
+}
+
+/*# sourceMappingURL=app.css.map */

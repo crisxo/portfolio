@@ -1,0 +1,61 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.me {
+  width: 100%;
+}
+
+.identity {
+  width: 70%;
+  display: inline-table;
+  vertical-align: top;
+  &-img {
+    width: 20%;
+    display: inline-table;
+  }
+  ul {
+    list-style-type: none;
+  }
+}
+
+.card {
+  border-radius: 4px;
+  background: white;
+  border: 1px solid #ddd;
+  margin: 1%;
+  width: 30%;
+  float: left;
+  overflow: hidden;
+  &-body {
+    padding: 20px;
+  }
+  @media (max-width: 560px) {
+    width: 100%;
+  }
+}
+
+.form-row {
+  label {
+    display: block;
+    margin-bottom: 5px;
+    padding: 10px 0;
+  }
+
+  input {
+    width: 100%;
+    font-size: 18px;
+    height: 30px;
+    margin: 10px 0;
+  }
+}
+
+.send {
+  margin-top: 5px;
+  width: auto;
+  padding: 10px;
+  float: right;
+  clear: both;
+  margin-left: 0;
+}
